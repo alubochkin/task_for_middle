@@ -3,6 +3,11 @@
     {
       "type": "flat",
       "id": 1,
+      "images": [
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg",
+        "https://rasprodaza-divanov.ru/image/data/product/23045/23045_0.jpg",
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg"
+      ],
       "attributes": {
         "title": "3-х комнатная на Минской",
         "rooms": 3,
@@ -28,6 +33,11 @@
     {
       "type": "flat",
       "id": 2,
+      "images": [
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg",
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg",
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg"
+      ],
       "attributes": {
         "title": "1 комнатная на Барабаинской",
         "rooms": 2,
@@ -53,6 +63,11 @@
     {
       "type": "flat",
       "id": 3,
+      "images": [
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg",
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg",
+        "https://nuzhna-mebel.ru/components/com_jshopping/files/img_products/full_stenka-2398.jpg"
+      ],
       "attributes": {
         "title": "Квартира Ленина",
         "rooms": 4,
