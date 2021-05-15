@@ -4,6 +4,6 @@
 
 ## Для просмотра работы приложения
 
-### Ссылка: 
+### Ссылка: https://alubochkin.github.io/task_for_middle/
 
 
