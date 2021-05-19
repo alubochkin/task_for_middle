@@ -1,55 +1,44 @@
+/* eslint-disable react/no-array-index-key */
+/* eslint-disable prefer-destructuring */
 import React, { useState } from 'react';
 
-export default function Slider(props) {
-
+export default function Slider({ images }) {
   const [move, setMove] = useState(0);
 
-  
-  const length = props.images.length;
+  const length = images.length;
 
-
-  const moveLeftHendler = () => {
-    if(-length !== move - 1) {
-      setMove(prev => prev += -1)
+  const buttonRightHandler = () => {
+    if (-length !== move - 1) {
+      setMove((prev) => -1 + prev);
     }
-  }
+  };
 
-  const moveRightHendler = () => {
-    if(move !== 0) {
-      setMove(prev => prev += 1)
+  const buttonLeftHandler = () => {
+    if (move !== 0) {
+      setMove((prev) => 1 + prev);
     }
-
-  }
+  };
 
   const stiles = {
     color: 'red',
     transform: `translate( ${move * 100}% )`,
-  }
-
+  };
 
   return (
     <div className='slider'>
       <div className='slider--btn'>
-        <span onClick={moveLeftHendler}> {'<'} </span>
-        <span onClick={moveRightHendler}> {'>'} </span>
+        <button type='button' onClick={buttonLeftHandler}>
+          {'<'}
+        </button>
+        <button type='button' onClick={buttonRightHandler}>
+          {'>'}
+        </button>
       </div>
-      <div 
-        style={stiles}
-        className='slider--wrappImage'
-      >
-        {
-          props.images.map((image, index) => {
-            return (
-              <img 
-                alt='' 
-                key={index} 
-                src={image} />
-            )
-          
-          })
-        }
+      <div style={stiles} className='slider--wrappImage'>
+        {images.map((image, index) => (
+          <img alt='' key={index} src={image} />
+        ))}
       </div>
     </div>
-  )
+  );
 }
-

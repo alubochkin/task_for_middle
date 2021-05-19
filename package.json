@@ -3,15 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "react-scripts": "4.0.3",
     "redux": "^4.1.0",
     "styled-components": "^5.3.0",
+    "redux-devtools-extension": "^2.13.9",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -42,6 +40,18 @@
     "styled-components": "^5"
   },
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.23.2",
+    "json-loader": "^0.5.7",
+    "prettier": "2.3.0",
+    "web-vitals": "^1.0.1",
+    "redux-devtools-extension": "^2.13.9"
+
   }
 }
